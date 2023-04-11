@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>E-Commerce Plant Website</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+    <!--
+      Need a visual blank slate?
+      Remove all code in `styles.css`!
+    -->
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <!-- NavBar Start-->
+    <div class="container mb-3">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">GREENMIND</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse ml-2"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/products.html">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacts</a>
+              </li>
+            </ul>
+          </div>
+          <div
+            class="collapse navbar-collapse ml-2"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav mx-auto mb-2 d-flex mb-lg-0 align-items-center">
+              <li class="nav-item mx-4">
+                <a class="nav-link active fs-2" aria-current="page" href="#"
+                  ><i class="bi bi-cart"></i
+                ></a>
+              </li>
+              <li class="nav-item mx-4">
+                <a class="nav-link fs-2" href="#"
+                  ><i class="bi bi-person"></i
+                ></a>
+              </li>
+              <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+              <button class="btn btn-dark border-0" type="button">Login</button>
+            </div>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- NavBar End-->
+
+    <!--hero starts-->
+    <div class="container mb-5 hero">
+      <div class="row">
+        <div class="col-md-6">
+          <h2 class="fw-bold mb-3 brandheading">Buy your dream plants</h2>
+          <div class="d-flex my-4">
+            <div class="container plantbar text-center">
+              <span class="fs-3 fw-bold">50+ </span>
+              <p>plant Species</p>
+            </div>
+            <div class="container text-center">
+              <span class="fs-3 fw-bold">100+</span>
+              <p>plant Species</p>
+            </div>
+          </div>
+
+          <div class="mb-3 mt-4">
+            <!-- <label for="exampleFormControlInput1" class="form-label"
+              >Email address</label
+            > -->
+            <input
+              type="email"
+              class="form-control p-3"
+              id="exampleFormControlInput1"
+              placeholder="What are you looking for?"
+            />
+          </div>
+          <!-- <div class="input  d-flex justify-content-center align-items-center">
+            <form action="">
+              <input
+                type="email"
+                class="form-control w-100"
+                id="exampleFormControlInput1"
+                placeholder="name@example.com"
+              />
+            </form>
+            </span>
+          </div> -->
+        </div>
+        <div class="col-md-6">
+          <div class="img-grid">
+            <img
+              src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=773&q=80"
+              alt=""
+              class="card-img topimg"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--hero Ends-->
+
+    <!-- Selling Products Starts -->
+    <section class="container my-4 sell">
+      <div class="container d-flex">
+      <div class="card border-0 align-self-center">
+        <div class="card-body">
+          <h5 class="card-title fw-bold">Best Selling Plants</h4>
+          <p>Easkest way to healthy life by buying your favorite plants</p>
+          <a href="./products.html">
+          <button class="btn">
+            See more <i class="bi bi-arrow-right"></i>
+          </button>
+        </a>
+        </div>
+      </div>
+    </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1453904300235-0f2f60b15b5d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=386&q=80" class="card-img-top w-100 h-100" alt="...">
+        <div class="card-body">
+          <h6 class="card-text">Artificial Plants</h5>
+            <p><i class="bi bi-currency-rupee"></i> 700.0</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1459411552884-841db9b3cc2a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=474&q=80" class="card-img-top w-100 h-100" alt="...">
+        <div class="card-body">
+          <h6 class="card-text">Natural Plants</h5>
+            <p><i class="bi bi-currency-rupee"></i> 900.0</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1509423350716-97f9360b4e09?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80" class="card-img-top w-100 h-100" alt="...">
+        <div class="card-body">
+          <h6 class="card-text">Indoor Plants</h5>
+            <p><i class="bi bi-currency-rupee"></i> 500.0</p>
+        </div>
+      </div>
+    </section>
+    <!-- Selling Products Ends -->
+
+    <!-- About us Starts -->
+    <div class="container my-5 p-4">
+      <div class="text-center mb-5">
+        <h4 class="card-title fw-bold mb-3">About us</h4>
+        <span class="card-text text-muted mb-3">Order now and appreciate the beauty of Nature</span>
+      </div>
+        <div class="row mt-4">
+          <div class="col-md-4 text-center mb-3 p-3" >
+            <div class="card border-0 align-items-center"> 
+              <i class="bi bi-flower3 fs-3 aboutitem w-25   rounded p-2"></i>
+              <div class="card-body">
+                <h5 class="card-title">Large Assortment</h5>
+            <span class="card-title text-muted">We offer many different types of products with fewer variations in each category</span>
+              </div>
+            </div>
+            <!-- <div class="aboutitem ">
+          </div> -->
+            
+          </div>
+          <div class="col-md-4 text-center mb-3 p-3">
+            <div class="card border-0 align-items-center">
+              <i class="bi bi-box-seam fs-3 aboutitem w-25 rounded p-2"></i>
+              <div class="card-body">
+                <h5 class="card-title">Fast & Free Shipping</h5>
+                <span class="card-text text-muted">4-day or less delivery time, free shipping and an expedited delivery option.</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 text-center mb-3 p-3">
+            <div class="card border-0 align-items-center">
+            <i class="bi bi-telephone-inbound fs-3 aboutitem w-25  rounded p-2"></i>
+            <div class="card-body">
+              <h5 class="card-title">24/7 Support</h5>
+              <span class="card-text text-muted">
+                answers to any business related inquiry 24/7 and in real-time.
+              </span>
+            </div>
+            </div>
+          </div>
+        </div>
+      
+    </div>
+    <!-- About us Ends -->
+
+    <!-- Categories Starts -->
+    <div class="text-center mb-4">
+    <h5 class="card-title h2 mb-3">Categories</h5>
+    <span class="card-text text-muted">
+      Find what you are looking for
+    </span>
+  </div>
+    <div class="container-fluid hero2">
+    <section class="container  my-5">
+      <div class="row g-4 p-3">
+        <div class="col-md-4">
+          <div class="card border-0">
+            <img src="https://images.unsplash.com/photo-1604762525950-13c07ecdab8b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="" class="card-top-img h-100">
+            <h5 class="card-title fw-bold text-center p-2" >Natural Plants</h5>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card border-0">
+          <img src="https://images.unsplash.com/photo-1528568731601-7ebad185aae2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80" alt="" class="card-top-img h-100">
+          <h5 class="card-title fw-bold text-center p-2">Plant Accessories</h5>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card border-0">
+            <img src="https://images.unsplash.com/photo-1601985705806-5b9a71f6004f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="" class="card-top-img h-100">
+            <h5 class="card-title fw-bold text-center p-2">Artificial Plants </h5>
+          </div>
+        </div>
+      </div>
+      <div class="d-grid gap-2 col-4 mx-auto">
+        <small class="text-center">Lots of Plants and many more  Variants </small>
+      <button class="btn fw-bold border-0 bg-white  p-3">Explore <i class="bi  bi-arrow-right"></i></button>
+    </div>
+    </section>
+  </div>
+    <!-- Categories Ends -->
+
+    <!-- Testmonials Starts -->
+    <div class="container my-5 p-4">
+      <h2 class="card-title fw-bold mb-4">What customers say about GREEMIND?</h2>
+      <div class="row p-3">
+        <div class="col-md-6">
+        <div class="card mb-3 border-0"  >
+        <div class="row g-0 align-items-center">
+          <div class="col-md-4">
+            <img src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80" class="img-fluid rounded-circle " alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body d-grid ">
+            <p class="card-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form. </p>
+            <span class="card-title fw-bold">"John</span>
+            <span class="card-text"><small class="text-body-secondary">Youtuber</small></span>
+            <span class="card-body d-flex  justify-content-md-end">
+            <span><i class="bi bi-star-fill fs-4"></i></span>
+            <span><i class="bi bi-star-fill fs-4"></i></span>
+            <span><i class="bi bi-star-fill fs-4"></i></span>
+            <span><i class="bi bi-star-fill fs-4"></i></span>
+            </span>
+            </div>
+          </div>
+        </div>
+      </div>
+        </div>
+        <div class="col-md-6">
+        <div class="card mb-3 border-0"  >
+        <div class="row g-0 align-items-center">
+          <div class="col-md-4">
+            <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80" class="img-fluid rounded-circle  " alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+            <p class="card-text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
+            <h5 class="card-title fw-bold">"John Doe</h5>
+            <p class="card-text"><small class="text-body-secondary">Youtber</small></p>
+            <span class="card-body   d-md-flex justify-content-md-end">
+            <span><i class="bi bi-star-fill fs-4"></i></span>
+            <span><i class="bi bi-star-fill fs-4"></i></span>
+            <span><i class="bi bi-star-fill fs-4"></i></span>
+            <span><i class="bi bi-star-fill fs-4"></i></span>
+            </span>
+            </div>
+          </div>
+        </div>
+      </div>
+        </div>
+      </div>
+    </div>
+    <!-- Testmonials Endss -->
+
+
+    <!-- Footer Starts -->
+
+    <div class="container-fluid hero2 p-5 mt-5">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-3 mb-3">
+            <h4 class="navbar-brand mb-3">GREENMIND</h4>
+            <span class="text-muted ">
+              We help you find your dream plant
+            </span>
+            <div class="d-flex fs-3 my-3 justify-content-evenly">
+              <i class="bi bi-instagram"></i>
+              <i class="bi bi-github"></i>
+              <i class="bi bi-linkedin"></i>
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <h5 class="card-title mb-3">
+              Information
+            </h5>
+            <p class="text-muted">About</p>
+            <p class="text-muted">Product</p>
+            <p class="text-muted">Blog</p>
+          </div>
+          <div class="col-md-3 mb-3">
+            <h5 class="card-title mb-3">
+              Company
+            </h5>
+            <p class="text-muted">Community</p>
+            <p class="text-muted">Career</p>
+            <p class="text-muted">Our story</p>
+          </div>
+          <div class="col-md-3 mb-3">
+            <h5 class="card-title mb-3">
+              Contact
+            </h5>
+            <p class="text-muted">Getting Started</p>
+            <p class="text-muted">Pricing</p>
+            <p class="text-muted">Resourses</p>
+          </div>
+        </div>
+        <div class="">
+        <small class="text-muted"><i class="bi bi-c-circle "></i> 2023 all Right Reserved Term of use GREENMIND</small>
+        </div>
+      </div>
+    </div>
+    <!-- Footer Ends -->
+
+    
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+      integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+      integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

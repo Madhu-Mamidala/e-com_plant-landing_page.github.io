@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  background-color: white;
+}
+.navbar-brand {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.5em;
+}
+.hero {
+  background: #c1dcdc;
+  padding: 2em;
+  border-radius: 1em;
+}
+.brandheading {
+  font-size: 5em;
+}
+img {
+  mix-blend-mode: darken;
+}
+.img-fluid {
+  mix-blend-mode: ;
+}
+.btn {
+  background: #c1dcdc;
+}
+.aboutitem {
+  background: #c1dcdc;
+}
+.sell {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+.nav-item {
+  display: flex;
+  align-items: center;
+}
+.hero2 {
+  background-color: #c1dcdc;
+  padding: 1em;
+}
+.bestsell {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+@media (max-width: 599px) {
+  .brandheading {
+    font-size: 3em;
+  }
+  .sell {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+  }
+}
